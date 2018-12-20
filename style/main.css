@@ -470,7 +470,38 @@ section.jobs h2{
 .backendinfo ul{
     list-style-type: none;
 }
+
+/* 
+    REVIEWS PAGE
+                        */
+                        
 section.reviews{
+    margin: auto;
+    width: 1300px;
+    height: 850px;
+    position: relative;
+    background-color: #E8E8E8;
+    top: 20px;
+}
+
+/* 
+    TUTORIALS PAGE
+                        */
+
+section.tutorials{
+    margin: auto;
+    width: 1300px;
+    height: 850px;
+    position: relative;
+    background-color: #E8E8E8;
+    top: 20px;
+}
+
+/* 
+    GLOSSARY PAGE
+                        */
+
+section.glossary{
     margin: auto;
     width: 1300px;
     height: 850px;
