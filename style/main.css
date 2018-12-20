@@ -118,10 +118,10 @@ section.second{
     height: 250px;
     position: relative;
     background-color: #E8E8E8;
-    top: 20px;
+    top: 30px;
     filter: brightness(100%);
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
     padding: 30px;
     margin-right: 5px;
     width: 585px;
@@ -133,21 +133,23 @@ section.second img{
 }
 section.second p{
     float: right;
+    font-family: 'Helvetica', sans-serif;
 }
 section.second h3{
     margin-left: 70px;
     margin-top: 35px;
     padding-left: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 section.second1{
     margin: auto;
     height: 250px;
     position: relative;
     background-color: #E8E8E8;
-    top: 20px;
+    top: 30px;
     filter: brightness(100%);
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 4;
     padding: 30px;
     margin-left: 5px;
     width: 585px;
@@ -168,15 +170,35 @@ section.second1 img{
 }
 section.second1 p{
     float: right;
+    font-family: 'Helvetica', sans-serif;
 }
 section.second1 h3{
     margin-left: 70px;
     margin-top: 35px;
     padding-left: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 section .img2{
     height: 200px;
     width: auto;
+}
+.under{
+    background-color: #292929;
+    margin-left: 110px;
+    width: 70px;
+    border: #292929 solid 2px;
+    border-radius: 50px;
+}
+section.second h4{
+    text-align: center;
+    color: #E8E8E8;
+    font-family: 'Oswald', sans-serif;
+    
+}
+section.second1 h4{
+    text-align: center;
+    color: #E8E8E8;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* 
@@ -189,9 +211,9 @@ section.third{
     height: 250px;
     position: relative;
     background-color: #E8E8E8;
-    top: 30px;
+    top: 20px;
     grid-column: 1/5;
-    grid-row: 4; 
+    grid-row: 3; 
 }
 
 /* 
@@ -213,6 +235,7 @@ header.header1{
 header h2{
     font-size: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 
@@ -259,17 +282,26 @@ footer{
 .links{
     grid-row: 1;
     grid-column: 2;
+    font-size: 15px;
 }
 .links1{
     grid-column: 3;
     grid-row: 1;
+    font-size: 15px;
 }
 .copyright{
     grid-column: 3/4;
     grid-row: 3;
     text-align: right;
+    font-size: 15px;
 }
-
+footer h5{
+    font-family: 'Helvetica', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 196, 196);
+}
 /* 
     JOBS PAGE
                         */
